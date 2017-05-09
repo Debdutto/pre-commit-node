@@ -1,22 +1,22 @@
 {
-  "name": "pre-commit-node",
-  "version": "0.0.2",
-  "description": "Adds a pre-commit eslint hook to your node package",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Debdutto/pre-commit-node.git"
-  },
-  "author": "Debdutto Chakraborty <debdutto.chakraborty@gmail.com> (https://github.com/Debdutto)",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/Debdutto/pre-commit-node/issues"
-  },
-  "homepage": "https://github.com/Debdutto/pre-commit-node#readme",
-  "dependencies": {
-    "git-validate": "^2.2.2"
-  }
+    "name": "pre-commit-node",
+    "version": "0.0.2",
+    "description": "Adds a pre-commit eslint hook to your node package",
+    "main": "index.js",
+    "scripts": {
+        "install": "node bin/install.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Debdutto/pre-commit-node.git"
+    },
+    "author": "Debdutto Chakraborty <debdutto.chakraborty@gmail.com> (https://github.com/Debdutto)",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/Debdutto/pre-commit-node/issues"
+    },
+    "homepage": "https://github.com/Debdutto/pre-commit-node#readme",
+    "dependencies": {
+        "git-validate": "^2.2.2"
+    }
 }
